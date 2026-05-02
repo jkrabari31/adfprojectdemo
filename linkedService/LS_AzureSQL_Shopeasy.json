@@ -1,0 +1,18 @@
+{
+	"name": "LS_AzureSQL_Shopeasy",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "SQL Connection",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-shopeasy-2024.database.windows.net",
+			"database": "shopeasy-dw",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDJBNDgzRDgyLUFENkMtNDUxOC1CRDA1LUI0QjA3OEUxMEEzM19kMmM0OWFhNi03ODgyLTQ3OTktYjYzNi1lMTg0ZjhlODI1ZjkiDQp9"
+		}
+	}
+}
